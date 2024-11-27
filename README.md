@@ -1,6 +1,5 @@
 ## What is AWS CloudWatch?
-### # $${\color {yellow} \textbf {AWS CloudWatch is a monitoring and observability service provided by Amazon Web Services. It helps you collect, analyze, and act on data from your AWS resources, applications, and services in real time. With CloudWatch, you can track metrics, collect and monitor logs, and set alarms to respond to changes in your environment. 
-:}}$$
+### # $${\color {yellow} \textbf {AWS CloudWatch is a monitoring and observability service provided by Amazon Web Services. It helps you collect, analyze, and act on data from your AWS resources, applications, and services in real time. With CloudWatch, you can track metrics, collect and monitor logs, and set alarms to respond to changes in your environment.:}}$$
 
 ## Key Features
 - Metrics Monitoring: Tracks metrics (e.g., CPU usage, memory, disk utilization) for AWS services like EC2, RDS, and Lambda.
