@@ -25,34 +25,34 @@
 ### Integration with Other Services:
 - Easily integrates with AWS services like EC2, Lambda, RDS, and third-party applications.
 ## Use Cases
-- 1. Application Performance Monitoring
-Scenario: Monitor an e-commerce application hosted on EC2 instances.
-How: Track metrics like latency, CPU usage, and request rates.
-Benefit: Quickly identify slowdowns and scale resources as needed.
-- 2. Resource Usage Optimization
-Scenario: Track the utilization of EC2 instances or RDS databases.
-How: Set alarms for underutilized resources.
-Benefit: Optimize costs by downsizing over-provisioned resources.
-- 3. Proactive Issue Detection
-Scenario: Detect errors in server logs for a web application.
-How: Use CloudWatch Logs Insights to search for error patterns.
-Benefit: Identify issues before they impact users.
-- 4. Serverless Application Monitoring
-Scenario: Monitor Lambda functions processing user requests.
-How: Track metrics like execution time, invocation count, and error rates.
-Benefit: Debug issues and improve performance in serverless applications.
-- 5. Compliance and Security Monitoring
-Scenario: Monitor access logs for unusual activity.
-How: Use CloudWatch Logs to analyze logs from AWS CloudTrail.
-Benefit: Enhance security and ensure compliance with regulatory standards.
-- 6. Event-Driven Automation
-Scenario: Automatically restart a failed instance.
-How: Create an alarm that triggers an EventBridge rule to restart the instance.
-Benefit: Minimize downtime with automated recovery.
-- 7. Custom Dashboards for Insights
-Scenario: Track all key metrics of a multi-region application on one dashboard.
-How: Create a CloudWatch dashboard with widgets for metrics like latency and throughput.
-Benefit: Centralized visibility for easier decision-making.
+### 1. Application Performance Monitoring
+- Scenario: Monitor an e-commerce application hosted on EC2 instances.
+- How: Track metrics like latency, CPU usage, and request rates.
+- Benefit: Quickly identify slowdowns and scale resources as needed.
+### 2. Resource Usage Optimization
+- Scenario: Track the utilization of EC2 instances or RDS databases.
+- How: Set alarms for underutilized resources.
+- Benefit: Optimize costs by downsizing over-provisioned resources.
+### 3. Proactive Issue Detection
+- Scenario: Detect errors in server logs for a web application.
+- How: Use CloudWatch Logs Insights to search for error patterns.
+- Benefit: Identify issues before they impact users.
+### 4. Serverless Application Monitoring
+-Scenario: Monitor Lambda functions processing user requests.
+- How: Track metrics like execution time, invocation count, and error rates.
+- Benefit: Debug issues and improve performance in serverless applications.
+### 5. Compliance and Security Monitoring
+- Scenario: Monitor access logs for unusual activity.
+- How: Use CloudWatch Logs to analyze logs from AWS CloudTrail.
+- Benefit: Enhance security and ensure compliance with regulatory standards.
+### 6. Event-Driven Automation
+- Scenario: Automatically restart a failed instance.
+- How: Create an alarm that triggers an EventBridge rule to restart the instance.
+- Benefit: Minimize downtime with automated recovery.
+### 7. Custom Dashboards for Insights
+- Scenario: Track all key metrics of a multi-region application on one dashboard.
+- How: Create a CloudWatch dashboard with widgets for metrics like latency and throughput.
+- Benefit: Centralized visibility for easier decision-making.
 
 ## How It Works (Simplified Flow)
 ### Collect Data:
